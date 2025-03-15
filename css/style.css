@@ -6,17 +6,20 @@
 }
 
 .card {
-  border: 1px solid;
+  border: 1px dotted purple;
+  border-radius: 10px;
   padding: 10px;
   background-color: rgba(127, 255, 212, 0.5);
 }
 
 #user h3 {
+  text-align: center;
   color: green;
   font-size: 22px;
 }
 
 #user p {
+  padding-left: 20px;
   color: red;
   font-size: 18px;
 }
