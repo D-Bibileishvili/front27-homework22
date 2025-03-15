@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 50px auto;
+}
+
+.card {
+  border: 1px solid;
+  padding: 10px;
+  background-color: rgba(127, 255, 212, 0.5);
+}
+
+#user h3 {
+  color: green;
+  font-size: 22px;
+}
+
+#user p {
+  color: red;
+  font-size: 18px;
+}
